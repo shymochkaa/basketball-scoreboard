@@ -1,0 +1,79 @@
+@font-face {
+    src: url("/CursedTimerUlil-Aznm.ttf");
+    font-family: CursedTimerUlil-Aznm;
+}
+body {
+    margin: 0;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin: 0 0 18px 0;
+    text-align: center;
+}
+
+.add-point-btn {
+    font-family: 'CursedTimerUlil-Aznm';
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    background: none;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+}
+
+.reset-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 155px;
+    height: 25px;
+    border-radius: 5px;
+    background: none;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    margin-top: 10px;
+}
+
+.tables-section {
+    font-family: 'CursedTimerUlil-Aznm';
+    width: 575px;
+    height: 385px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B244A;
+    margin: 0 auto;
+}
+
+.table-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 20px;
+}
+
+.guest-section  {
+    background-color: #080001;
+    width: 310px;
+    height: 240px;
+}
+
+.score-section {
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    color: #F94F6D;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.add-points-btns {
+    margin-top: 26px;
+}
